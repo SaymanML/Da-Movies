@@ -1,0 +1,21 @@
+{
+  "name": "da-movies-server",
+  "version": "1.0.0",
+  "description": "Backend API for Da Movies Recommendation Engine",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
